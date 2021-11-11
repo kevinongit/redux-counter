@@ -1,0 +1,2 @@
+$ http-server -c-1  
+    # -c : cache  -1 : -1 sec (no cache)

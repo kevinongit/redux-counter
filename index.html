@@ -3,12 +3,18 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="#">
   <title>Using expect and deep-freeze</title>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/expect@1.20.2/umd/expect.min.js"></script>
   <script src="https://unpkg.com/redux@4.1.2/dist/redux.js"></script>
 
 </head>
 <body>
-  <script type="module" src="script.js"></script>
+  <!-- <script type="module" src="script.js"></script>
+  <script type="module" src="addCounter.js"></script> -->
+  <script type="text/babel"  data-type="module" src="todoapp.js"></script>
 
   <div id="root">
   </div>
